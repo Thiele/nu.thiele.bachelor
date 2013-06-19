@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layout"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Preferred hand"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+    <Spinner
+        android:id="@+id/activity_settings_handspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/activity_settings_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+	<TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Layout settings"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+    	
+	<LinearLayout
+	    android:paddingLeft="10dp"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/activity_settings_layout_settings">
+	    
+	</LinearLayout>
+</LinearLayout>
