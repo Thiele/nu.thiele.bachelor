@@ -21,7 +21,7 @@ public class Activity_Calibrate extends Activity{
 	private boolean minEvaluating = true;
 	private Button button, reset;
 	private ImageView touchArea;
-	private TextView status,text;//
+	private TextView status,text;
 	private LinkedList<Float> mins, maxs;
 	private int touchesTotal = 400;
 	
